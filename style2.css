@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+  font-size: 15px;
+}
+
+body {
+  background-color: darkslategrey;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  max-width: 30vw;
+  background-color: antiquewhite;
+}
+
+#star-image {
+  max-width: 50px;
+}
+
+.buttons-rating {
+  display: flex;
+  justify-content: center;
+}
