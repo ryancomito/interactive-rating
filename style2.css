@@ -4,21 +4,46 @@
 }
 
 body {
-  background-color: darkslategrey;
+  background-color: hsl(216, 12%, 8%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* width: 99vw; */
+  height: 100vh;
 }
 
 main {
   display: flex;
   flex-direction: column;
-  max-width: 30vw;
-  background-color: antiquewhite;
+  max-width: 350px;
+  background-color: hsl(213, 19%, 18%);
+  padding: 25px;
+}
+
+h1 {
+  color: white;
+}
+
+p {
+  color: hsl(217, 12%, 63%);
 }
 
 #star-image {
-  max-width: 50px;
+  max-width: 15px;
 }
 
 .buttons-rating {
   display: flex;
   justify-content: center;
+  padding-bottom: 15px;
+  
+}
+
+.five-buttons-rating {
+  background-color: hsl(216, 12%, 54%);
+  margin-inline: 10px;
+  border: none;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
 }
